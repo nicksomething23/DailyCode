@@ -8,6 +8,10 @@
 *************************************
 */
 
+function makeUpperCase(str) {
+  return str.toUpperCase()
+}
+
 function add(a, b){
 	return a == b
 }
