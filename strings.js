@@ -84,6 +84,19 @@ var countSheep = function (num){
 *************************************
 */
 
+function reverseWords(str) {
+  //p strings. any data types other than characters? Does case matter? 
+  //R return to console
+  //E apple => elppa
+  // a b c d => a b c d 
+  //truen into array, reverse, letters, join into string. split into array as whole words, reverse and join
+  
+  return str.split('').reverse().join('').split(' ').reverse().join(' ')
+  
+  
+}
+
+
 function disemvowel(str) {
   const vowels = ["a", "e", "i", "o", "u","A", "E", "I", "O", "U"]
   return str.split("").filter(a => !vowels.includes(a)).join("")
