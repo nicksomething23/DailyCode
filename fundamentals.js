@@ -8,6 +8,16 @@
 *************************************
 */
 
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  // P => how far, mpg, amount left always positive? no
+  //R => 1 or 0 
+  // multiply fuel left by mpg. if amount matches distance or is greater, then true otherwise false
+  
+  let totalMilesLeft = mpg * fuelLeft
+  
+  return totalMilesLeft >= distanceToPump
+};
+
 
 function makeNegative(num) {
   return num < 0 ? num : num * -1
