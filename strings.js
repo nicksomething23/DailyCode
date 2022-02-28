@@ -8,6 +8,10 @@
 *************************************
 */
 
+function correct(string){
+  return string.replaceAll("5","S").replaceAll("1","I").replaceAll("0","O")
+}
+
 function greet(name){
   return `Hello, ${name} how are you doing today?`
 }
