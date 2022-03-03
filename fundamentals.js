@@ -7,6 +7,13 @@
 
 *************************************
 */
+
+
+function makeNegative(num) {
+  return num < 0 ? num : num * -1
+ }
+
+ 
 function isDivideBy(number, a, b) { 
   if ((Math.abs(number % a === 0)) && (Math.abs(number % b === 0))) {
     return true
