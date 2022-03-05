@@ -8,6 +8,13 @@
 *************************************
 */
 
+function repeatStr (n, s) {
+  let total = ''
+  for (let i = 1; i <= n ; i++) {
+    total += s
+  }
+  return total
+}
 
 function removeChar(str){
   return str.slice(1, str.length - 1);
