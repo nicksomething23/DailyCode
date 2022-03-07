@@ -8,6 +8,22 @@
 *************************************
 */
 
+function twoHighest(arr) {
+  let finalArr = []
+  let removedDuplicates = [...new Set(arr)]
+  let sorted = removedDuplicates.sort((a,b) => b-a)
+  if (sorted.length === 0) {
+    return []
+  } else if (sorted.length === 1) {
+    return sorted
+  } else {
+    finalArr.push(sorted[0])
+    finalArr.push(sorted[1])
+  return finalArr
+  }
+}
+
+
 function reverseList(list) {
   return list.reverse()
 }
