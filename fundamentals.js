@@ -4,9 +4,17 @@
 *************************************
     8 kyu problems
 *************************************
-gi
+
 *************************************
 */
+function isDivideBy(number, a, b) { 
+  if ((Math.abs(number % a === 0)) && (Math.abs(number % b === 0))) {
+    return true
+  } else {
+    return false
+  }
+}
+
 function bmi(weight, height) {
     let bmi = weight / (height*height)
     if (bmi <= 18.5) {
