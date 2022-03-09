@@ -8,6 +8,8 @@
 *************************************
 */
 
+let removeExclamations = str => str.replaceAll("!", "");
+
 
 var countSheep = function (num){
     let result = ''
