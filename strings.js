@@ -8,7 +8,6 @@
 *************************************
 */
 
-const stringToNumber = str => Number(str)
 
 var countSheep = function (num){
     let result = ''
