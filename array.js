@@ -442,7 +442,10 @@ function invert(array) {
 *************************************
 */
 
-
+const binaryArrayToNumber = arr => {
+    let binary = arr.join("")
+    return parseInt(binary,2)
+  };
 
 // function filter_list(l) {
 //     return l.filter((a)=> typeof a === "number");
