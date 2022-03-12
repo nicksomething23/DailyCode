@@ -39,6 +39,11 @@ function SeriesSum(n) {
     return sum.toFixed(2)
   }
 
+
+  function isTriangle(a,b,c) {
+    return (a+b > c) && (a+c > b) && (b+c > a)
+  }
+
 /*
 ************************************
 
