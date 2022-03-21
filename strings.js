@@ -21,7 +21,9 @@ var countSheep = function (num){
     return str.split('').map(a => a+a).join('')
   }
   
-
+  function booleanToString(b){
+    return b ? "true" : "false"
+  }
 
 /*
 ************************************
