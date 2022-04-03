@@ -226,3 +226,20 @@
 //       return nums.sort((a, b) => a - b)
 //     }
 //   }
+
+// function barista(coffees){
+//     let totalTime = 0;
+//     let waitTime;
+//     let sortedOrders = coffees.sort((a,b) => a - b);
+//     coffees.reduce((previous, current, index) => {
+//       if (index < 1) {
+//         waitTime = current;
+//       } else {
+//         waitTime = previous + current +2
+//       }
+//       totalTime += waitTime
+//       return waitTime
+//     }, 0)
+    
+//     return totalTime
+// }
