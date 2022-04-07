@@ -8,13 +8,23 @@
 //     }
 //   };
 
-function sum (numbers) {
-  "use strict";
-if (numbers.length === 0) {
-return 0;
-} else {
-return numbers.reduce((a,b) => a += b ,0)
+// function sum (numbers) {
+//   "use strict";
+// if (numbers.length === 0) {
+// return 0;
+// } else {
+// return numbers.reduce((a,b) => a += b ,0)
+// }
+
+
+// };
+
+function removeEveryOther(arr){
+  //your code here
+  let newArr = []
+  for (let i = 0; i < arr.length; i += 2) {
+    newArr.push(arr[i])
+  }
+  
+  return newArr
 }
-
-
-};
