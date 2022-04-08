@@ -19,12 +19,16 @@
 
 // };
 
-function removeEveryOther(arr){
-  //your code here
-  let newArr = []
-  for (let i = 0; i < arr.length; i += 2) {
-    newArr.push(arr[i])
-  }
+// function removeEveryOther(arr){
+//   //your code here
+//   let newArr = []
+//   for (let i = 0; i < arr.length; i += 2) {
+//     newArr.push(arr[i])
+//   }
   
-  return newArr
+//   return newArr
+// }
+
+function check(a, x) {
+  return a.includes(x)
 }
