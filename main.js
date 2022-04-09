@@ -1,3 +1,6 @@
+/* 8 Kyu Problems */
+
+
 // const rps = (p1, p2) => {
 //     if ((p1 === 'paper' && p2 ==='scissors') || (p1 === 'scissors' && p2 ==='rock') || (p1 === 'rock' && p2 ==='paper')) {
 //       return "Player 2 won!"
@@ -37,3 +40,17 @@
 //   return ['I love you','a little','a lot','passionately','madly','not at all'][(nbPetals-1) % 6]
     
 //   }
+
+// /* 7 kyu problems*/
+
+
+// function sumDigits(number) {
+//     if (number < 0) {
+//       number *= -1
+//     }
+//     let newString = String(number).split('')
+//     return newString.map(Number).reduce((a,b) => a += b,0)
+    
+    
+//   }
+  
