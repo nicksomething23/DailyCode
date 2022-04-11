@@ -41,6 +41,19 @@
     
 //   }
 
+// function array(arr){
+//     let newStr = arr.split(',')
+//     newStr.pop()
+//     newStr.shift()
+//     let finalStr = newStr.join(' ')
+//     if (finalStr == '') {
+//       return null
+//     } else {
+//       return finalStr
+//     }
+//   }
+  
+
 // /* 7 kyu problems*/
 
 
