@@ -53,6 +53,10 @@
 //     }
 //   }
   
+// function arrayPlusArray(arr1, arr2) {
+//     let finalArr = arr1.concat(arr2)
+//     return finalArr.reduce((a,b) => a += b ,0)
+//   }
 
 // /* 7 kyu problems*/
 
