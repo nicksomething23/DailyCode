@@ -53,6 +53,18 @@
 //     }
 //   }
   
+// function squareOrSquareRoot(array) {
+//     return array.map(x => {
+//       let isXSquared = Math.sqrt(x)
+//      if (isXSquared % 1) {
+//         return x*x
+//      } else {
+//        return Math.sqrt(x)
+//        }
+//    })
+//  }
+
+
 // function arrayPlusArray(arr1, arr2) {
 //     let finalArr = arr1.concat(arr2)
 //     return finalArr.reduce((a,b) => a += b ,0)
