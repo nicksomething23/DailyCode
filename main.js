@@ -70,6 +70,19 @@
 //     return finalArr.reduce((a,b) => a += b ,0)
 //   }
 
+// function sameCase(a, b){
+//     if ((a >= 'a' && a <= 'z') && (b >= 'a' && b <= 'z')) {
+//       return 1
+//     } else if ((a >= 'A' && a <= 'Z') && (b >= 'A' && b <= 'Z')) {
+//       return 1
+//     } else if ((a >= 'a' && a <= 'z') && (b >= 'A' && b <= 'Z')) {
+//       return 0
+//     } else if ((a >= 'A' && a <= 'Z') && (b >= 'a' && b <= 'z')) {
+//       return 0
+//     } else {
+//       return -1;
+//     }
+
 // /* 7 kyu problems*/
 
 
