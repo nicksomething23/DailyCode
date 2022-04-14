@@ -83,6 +83,15 @@
 //       return -1;
 //     }
 
+// function betterThanAverage(classPoints, yourPoints) {
+//     let avgClassPoints = classPoints.reduce((a,b)=> a+b,0) / classPoints.length
+//     if (yourPoints > avgClassPoints) {
+//       return true
+//     } else {
+//       return false
+//     }
+//   }
+
 // /* 7 kyu problems*/
 
 
