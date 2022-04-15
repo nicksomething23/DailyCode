@@ -105,3 +105,14 @@
     
 //   }
   
+// function openOrSenior(data){
+//     const result = []
+//     data.forEach(x => {
+//     if ((x[0] >= 55) && (x[1] > 7)) {
+//       result.push('Senior') 
+//     } else {
+//       result.push('Open') 
+//     }
+//   })
+//     return result
+//   } 
