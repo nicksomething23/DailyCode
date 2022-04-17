@@ -102,6 +102,23 @@
 //     })
 //   }
 
+// function getGrade (s1, s2, s3) {
+//     let sumOfNums = s1+s2+s3
+//     let avgOfNums = sumOfNums / 3
+    
+//     if (avgOfNums >= 90 ) {
+//       return 'A'
+//     } else if (avgOfNums >= 80 ) {
+//       return 'B'
+//     } else if (avgOfNums >= 70 ){
+//       return 'C'
+//     } else if (avgOfNums >= 60 ){
+//       return 'D'
+//     } else {
+//       return 'F'
+//     }
+//   }
+
 // /* 7 kyu problems*/
 
 
@@ -126,3 +143,16 @@
 //   })
 //     return result
 //   } 
+
+
+// function nbYear(p0, percent, aug, p) {
+//     let year = 0;
+//     while (p0 < p) {
+//       year++
+//       p0 = Math.floor(p0 + (p0*percent/100) + aug);
+//     }
+//     if (p0 >= p) {
+//         return year;
+//     }
+//     return year;
+//   }
