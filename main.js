@@ -92,6 +92,16 @@
 //     }
 //   }
 
+// function isVow(a){
+//     return a.map(a => {
+//       if (a == 101 || a == 117 || a == 97 || a == 105 || a == 111) {
+//         return String.fromCharCode(a)
+//       } else {
+//         return a
+//       }
+//     })
+//   }
+
 // /* 7 kyu problems*/
 
 
