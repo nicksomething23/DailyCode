@@ -127,6 +127,11 @@
 //     return newArr;
 //   }
 
+// function getAverage(marks){
+//     let totalArr = marks.reduce((a,b) => a + b , 0)
+//     return Math.floor(totalArr / marks.length)
+//   }
+
 // /* 7 kyu problems*/
 
 
