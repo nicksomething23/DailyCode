@@ -132,6 +132,14 @@
 //     return Math.floor(totalArr / marks.length)
 //   }
 
+
+// function twoSort(s) {
+//     const sorted = s.sort()
+//     let firstStr = sorted[0]
+//     return firstStr.split('').join('***')
+    
+//     }
+
 // /* 7 kyu problems*/
 
 
