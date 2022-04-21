@@ -181,3 +181,13 @@
 //     }
 //     return year;
 //   }
+
+// function solution(nums){
+//     if(nums === []) {
+//       return [];
+//     } else if(nums === null) {
+//       return [];
+//     } else {
+//       return nums.sort((a, b) => a - b)
+//     }
+//   }
