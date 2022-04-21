@@ -144,7 +144,22 @@
 //     return arr.every(fun)
 //   }
 
+// function multipleOfIndex(array) {
+//     return array.filter((element,index) => element % index === 0)
+//   }
+
+
+
+
+
+
 // /* 7 kyu problems*/
+
+
+
+
+
+
 
 
 // function sumDigits(number) {
