@@ -154,7 +154,24 @@
     
 //   }
 
-
+// var humanYearsCatYearsDogYears = function(humanYears) {
+//     let catYears;
+//     let dogYears;
+    
+//     if (humanYears === 1) {
+//       catYears = 15
+//     } else {
+//       catYears = ((humanYears - 2)* 4) + 24
+//     }
+    
+//       if (humanYears === 1) {
+//       dogYears = 15
+//     } else {
+//       dogYears = ((humanYears - 2)* 5) + 24
+//     }
+    
+//     return [humanYears,catYears,dogYears];
+//   }
 
 // /* 7 kyu problems*/
 
