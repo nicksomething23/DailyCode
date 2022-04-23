@@ -173,11 +173,42 @@
 //     return [humanYears,catYears,dogYears];
 //   }
 
+// function add(a,b){
+//     return a + b
+// }
+
+// function divide(a,b){
+//     return a / b
+// }
+
+// function multiply(a,b){
+//     return a * b
+// }
+
+// function mod(a,b){
+//     return a % b
+// }
+   
+// function exponent(a,b){
+//     return a ** b
+// }
+    
+// function subt(a,b){
+//     return a - b
+// }
+
+// function nameShuffler(str){
+//     return str.split(' ').reverse().join(" ");
+//   }
+
+
 // /* 7 kyu problems*/
 
 
 
-
+// function filter_list(l) {
+//     return l.filter((a)=> typeof a === "number");
+//   }
 
 
 
