@@ -201,6 +201,12 @@
 //     return str.split(' ').reverse().join(" ");
 //   }
 
+// function findMultiples(integer, limit) {
+//     let arr = [];
+//     for (let i=integer; i <=limit; i+=integer) arr.push(i)
+//     return arr
+//   }
+
 // function magNumber(info){
   
 //     if (info[0] === "PT92") {
@@ -215,7 +221,9 @@
     
 //   }
   
-
+// function sumMix(x){
+//     return x.map(Number).reduce((a,b) =>a+b)
+//   }
 
 // /* 7 kyu problems*/
 
