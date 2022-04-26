@@ -225,6 +225,19 @@
 //     return x.map(Number).reduce((a,b) =>a+b)
 //   }
 
+
+// function toFreud(string) {
+//     if (string === ''){
+//       return ""
+//     } else {
+//       let arr = string.split(' ')
+//       return arr.map(a => 'sex').join(' ')
+//     }
+//     }
+
+
+
+
 // /* 7 kyu problems*/
 
 
