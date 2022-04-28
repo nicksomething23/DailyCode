@@ -239,6 +239,14 @@
 //     return number % 2 == 0 ? 'Even' : 'Odd'
 //   }
 
+// function countBy(x, n) {
+//     var z = [];
+//     for (i = 1; i <= n; i++) {
+//         z.push(x * i);
+//     }
+//     return z;
+// }
+
 
 // /* 7 kyu problems*/
 
@@ -322,4 +330,8 @@
 //       }
 //     })
 //     return vowelsCount;
+//   }
+
+// function chain2 (v, fns) {
+//     return fns.reduce((v, fn) => { return fn(v) }, v);
 //   }
