@@ -248,6 +248,19 @@
 // }
 
 
+// function plural(n) {
+//     return n < 1 || n > 1;
+//   }
+
+// function solution(a, b){
+//     if (a.length > b.length) {
+//       return b + a + b
+//     } else {
+//       return a + b + a
+//     }
+//   }
+  
+
 // /* 7 kyu problems*/
 
 
