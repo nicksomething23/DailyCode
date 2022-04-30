@@ -260,6 +260,9 @@
 //     }
 //   }
   
+// function opposite(number) {
+//     return number * (-1);
+// }
 
 // /* 7 kyu problems*/
 
