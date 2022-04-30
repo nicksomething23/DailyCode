@@ -351,3 +351,8 @@
 // function chain2 (v, fns) {
 //     return fns.reduce((v, fn) => { return fn(v) }, v);
 //   }
+
+
+/// // /* 6 kyu problems*///
+
+/* let findUniq = arr => arr.find(a => arr.indexOf(a) === arr.lastIndexOf(a)) */
