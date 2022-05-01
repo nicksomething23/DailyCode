@@ -264,6 +264,16 @@
 //     return number * (-1);
 // }
 
+// function first(arr, n) {
+//     if (n >= 1) {
+//       return arr.slice(0,n)
+//     } else if (n == 0) {
+//       return []
+//     } else {
+//       return arr.slice(0,1)
+//     }
+//    }
+
 // /* 7 kyu problems*/
 
 
