@@ -274,6 +274,10 @@
 //     }
 //    }
 
+// function swapValues(args) {
+//     return args.reverse();
+//   }
+
 // /* 7 kyu problems*/
 
 
