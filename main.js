@@ -366,6 +366,14 @@
 //     return fns.reduce((v, fn) => { return fn(v) }, v);
 //   }
 
+// function descendingOrder(n){
+//     let str = String(n)
+//     let arr = str.split('')
+//     let nums = arr.map(Number)
+//     let sorted = nums.sort((a,b) => b-a)
+//     return Number(sorted.join(''))
+//   }
+
 
 /// // /* 6 kyu problems*///
 
