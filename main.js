@@ -287,6 +287,10 @@
 //       return arr.reduce((a,b)=> ( a && !b ) || ( !a && b ))
 //     }
 
+// function divisibleBy(numbers, divisor){
+//     return numbers.filter(nums => nums % divisor === 0)
+//   }
+
 // /* 7 kyu problems*/
 
 
