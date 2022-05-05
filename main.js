@@ -278,6 +278,15 @@
 //     return args.reverse();
 //   }
 
+// function logicalCalc(arr, op){
+//     if (op == "AND") {
+//       return arr.reduce((a,b)=>a && b)
+//     } else if (op == 'OR') {
+//       return arr.reduce((a,b)=>a || b)
+//     } else {
+//       return arr.reduce((a,b)=> ( a && !b ) || ( !a && b ))
+//     }
+
 // /* 7 kyu problems*/
 
 
