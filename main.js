@@ -308,6 +308,50 @@
 //   }
 
 
+// function toCsvText(array) {
+//     return array.map(String).join('\n')
+//  }
+
+
+// function grow(x){
+//     let sortedArray = x.sort((a,b) => a - b)
+//     return sortedArray.reduce((a,b) => a*b)
+    
+//   }
+
+// function arr (n) {
+//     let newArr = []
+//     for (let i = 0; i <n;i++){
+//       newArr.push(i)
+//     }
+//     return newArr
+//   }
+
+// function differenceInAges(ages){
+//     let arr = []
+//     let sorted = ages.sort((a,b)=> a-b)
+//     arr.push(sorted[0])
+//     arr.push(sorted[sorted.length-1])
+//     let difference = sorted[sorted.length-1] - sorted[0]
+//     arr.push(difference)
+//     return arr
+//   }
+  
+// function check(a,x){
+//     return a.includes(x)
+//   };
+
+
+// function sumOfDifferences(arr) {
+//     let sortedArray = arr.sort((a,b) => b-a)
+//     if (sortedArray.length < 2) {
+//       return 0
+//     } else {
+//       return sortedArray[0] - sortedArray[sortedArray.length - 1]
+//     }
+    
+//   }
+
 // /* 7 kyu problems*/
 
 
