@@ -352,6 +352,38 @@
     
 //   }
 
+
+// var ArrowFunc = function(arr) {
+//     return arr.map( a => String.fromCharCode(a) ).join(''); //Complete this function
+//   }
+
+// websites.push("codewars")
+
+
+// var findAverage = function (nums) {
+//     let total = nums.reduce((a,b)=> a + b)
+//     return total / nums.length 
+//   }
+
+
+// function arr2bin(arr){
+//     const filtered = arr.filter(a => typeof a === 'number' )
+//     return filtered.reduce((a,b) => a+b , 0).toString(2)
+//   }
+
+// function printArray(array){
+//     return array.join(',')
+//   }
+
+// function monkeyCount(n) {
+//     let arr = []
+//     for (let i = 1; i <= n;i++ ) {
+//       arr.push(i)
+//     }
+//       return arr
+//     }
+
+
 // /* 7 kyu problems*/
 
 
