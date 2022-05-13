@@ -1,5 +1,15 @@
 /* 8 Kyu Problems */
 
+// function doTurn () {
+//     // Call functions here
+//     rollDice();
+//     move();
+//     combat();
+//     getCoins();
+//     buyHealth();
+//     printStatus();
+//   }
+
 // let items = []
 // let object = {a: "b", c: "d"}
 // items.push(object)
