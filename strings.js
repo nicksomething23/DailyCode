@@ -32,7 +32,10 @@ var countSheep = function (num){
 
 *************************************
 */
-
+function squareDigits(num){
+  let concatenedStringNumber = String(num).split('').map(a => a*a).join('')
+  return Number(concatenedStringNumber)
+}
 
 
 
