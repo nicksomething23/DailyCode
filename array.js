@@ -541,6 +541,9 @@ function removeSmallest(numbers) {
     return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
   }
 
+  function friend(friends){
+    return friends.filter(a => a.length === 4)
+  }
 
 
 /*
