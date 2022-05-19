@@ -21,6 +21,9 @@ function bmi(weight, height) {
     
   }
 
+
+  const stringToNumber = str => Number(str)
+
 /*
 ************************************
 
@@ -30,6 +33,8 @@ function bmi(weight, height) {
 
 *************************************
 */
+
+
 
 function SeriesSum(n) {
     let sum = 0
