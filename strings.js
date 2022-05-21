@@ -8,6 +8,12 @@
 *************************************
 */
 
+
+function removeChar(str){
+  return str.slice(1, str.length - 1);
+};
+
+
 function defineSuit(card) {
   let finalStr = card[card.length-1]
   if (finalStr === '♣') {
