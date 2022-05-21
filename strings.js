@@ -8,6 +8,19 @@
 *************************************
 */
 
+function defineSuit(card) {
+  let finalStr = card[card.length-1]
+  if (finalStr === '♣') {
+    return 'clubs'
+  } else if (finalStr === '♦') {
+    return 'diamonds'
+  }else if (finalStr === '♥') {
+    return 'hearts'
+  } else {
+    return 'spades'
+  }
+}
+
 let removeExclamations = str => str.replaceAll("!", "");
 
 
