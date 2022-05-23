@@ -463,6 +463,16 @@ function invert(array) {
 *************************************
 */
 
+function stray(numbers) {
+  let sorted = numbers.sort((a,b) => a-b)
+  if (sorted[0] !== sorted[1]) {
+    return sorted.shift()
+  } else {
+    return sorted.pop()
+  }
+}
+
+
 const binaryArrayToNumber = arr => {
     let binary = arr.join("")
     return parseInt(binary,2)
