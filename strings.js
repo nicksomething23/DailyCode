@@ -71,6 +71,12 @@ var countSheep = function (num){
 
 *************************************
 */
+
+function disemvowel(str) {
+  const vowels = ["a", "e", "i", "o", "u","A", "E", "I", "O", "U"]
+  return str.split("").filter(a => !vowels.includes(a)).join("")
+  }
+
 function squareDigits(num){
   let concatenedStringNumber = String(num).split('').map(a => a*a).join('')
   return Number(concatenedStringNumber)
