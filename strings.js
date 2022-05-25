@@ -8,6 +8,10 @@
 *************************************
 */
 
+function greet(name){
+  return `Hello, ${name} how are you doing today?`
+}
+
 function repeatStr (n, s) {
   let total = ''
   for (let i = 1; i <= n ; i++) {
