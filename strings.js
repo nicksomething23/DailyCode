@@ -94,6 +94,31 @@ function solution(str, ending){
   return str.endsWith(ending) 
 }
 
+function isIsogram(str){
+  let string = str.toLowerCase()
+  let arr = string.split('')
+  let removedRepeatingLetters = [...new Set(arr)].join('')
+  if (string === '') {
+    return true
+  } else if (string !== removedRepeatingLetters) {
+    return false
+  } else {
+    return true
+  }
+}
+
+
+// return isogram. no repeating letters at all string. empty string === true
+//P - no nums. ignore lowercase. 
+//R - Return
+
+//E - isIsogram('Arrivederci') === false
+//    isIsogram('Hello') === false
+//    isIsogram('isogram') === true
+//    grab string and set to lowerCase
+//    check for repeated values. turn string into array, use set to remove duplicates
+//    compare new set to original str
+
 /*
 ************************************
 
