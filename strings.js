@@ -95,6 +95,19 @@ function solution(str, ending){
 }
 
 function isIsogram(str){
+
+// return isogram. no repeating letters at all string. empty string === true
+//P - no nums. ignore lowercase. 
+//R - Return
+
+//E - isIsogram('Arrivederci') === false
+//    isIsogram('Hello') === false
+//    isIsogram('isogram') === true
+//    grab string and set to lowerCase
+//    check for repeated values. turn string into array, use set to remove duplicates
+//    compare new set to original str
+
+
   let string = str.toLowerCase()
   let arr = string.split('')
   let removedRepeatingLetters = [...new Set(arr)].join('')
@@ -107,17 +120,24 @@ function isIsogram(str){
   }
 }
 
+function DNAStrand(dna){
+  // P: string of letters. Does case matter? will it have any numbers/values other than characters? 
+  // R: return to console
+  // E: "ATCG" === "TAGC" .....
+  // P: create object that switches the characters
+  // split into array
+  // mao function using the object and join the string back together
 
-// return isogram. no repeating letters at all string. empty string === true
-//P - no nums. ignore lowercase. 
-//R - Return
+  let obj = {A:'T', T:'A', C:'G', G:'C'};
+  return dna.split('').map(c=> obj[c]).join('')
+}
 
-//E - isIsogram('Arrivederci') === false
-//    isIsogram('Hello') === false
-//    isIsogram('isogram') === true
-//    grab string and set to lowerCase
-//    check for repeated values. turn string into array, use set to remove duplicates
-//    compare new set to original str
+
+
+
+
+
+
 
 /*
 ************************************
