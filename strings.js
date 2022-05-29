@@ -8,6 +8,11 @@
 *************************************
 */
 
+function shortcut (string) {
+  let vowels = ['a','e','i','o','u']
+  return string.split('').filter(element => !vowels.includes(element)).join('')
+}
+
 function numberToString(num) {
   return String(num)
 }
