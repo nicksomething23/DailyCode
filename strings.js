@@ -8,6 +8,14 @@
 *************************************
 */
 
+function feast(beast, dish) {
+  if ((beast[0] == dish[0]) && (beast[beast.length -1] == dish[dish.length -1])) {
+    return true
+  } else {
+    return false
+  }
+}
+
 function shortcut (string) {
   let vowels = ['a','e','i','o','u']
   return string.split('').filter(element => !vowels.includes(element)).join('')
