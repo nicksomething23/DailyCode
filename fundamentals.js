@@ -8,6 +8,14 @@
 *************************************
 */
 
+const areaOrPerimeter = function(l , w) {
+  if (l !== w) {
+    return l + l + w + w
+  } else if (l === w) {
+    return l * w
+  }
+};
+
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   // P => how far, mpg, amount left always positive? no
   //R => 1 or 0 
