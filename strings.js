@@ -8,6 +8,15 @@
 *************************************
 */
 
+function bonusTime(salary, bonus) {
+  if (bonus == true) {
+    
+    return `£${salary * 10}`
+  } else {
+    return `£${salary}`
+  }
+}
+
 function isLockNessMonster(s) {
   if (s.includes("tree fiddy") || s.includes("three fifty") || s.includes("3.50")) {
     return true
