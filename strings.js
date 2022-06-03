@@ -8,6 +8,10 @@
 *************************************
 */
 
+function add(a, b){
+	return a == b
+}
+
 function bonusTime(salary, bonus) {
   if (bonus == true) {
     
