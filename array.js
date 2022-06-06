@@ -462,6 +462,12 @@ function invert(array) {
 
 *************************************
 */
+function last(x){
+  //turn string into array, split by spaces to ensure we get words
+  let arr = x.split(' ')
+  // we want to sort the words via last letter of word. We'll use sort method which will compare one elemenent to another and sort. We will use slice(-1) to grab the last letter and sort with localeCompare. 
+  return arr.sort((a,b) => a.slice(-1).localeCompare(b.slice(-1)))
+}
 
 function stray(numbers) {
   let sorted = numbers.sort((a,b) => a-b)
