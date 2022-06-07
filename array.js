@@ -462,6 +462,13 @@ function invert(array) {
 
 *************************************
 */
+
+//PREP
+// P: string of words. Any #'s? any other data types other than words? Will it always be a string? Will it ever be an empty string? Minimum of characters?
+// R: return to console? console.log? return as string or return as array?
+// E: 'man i need a taxi up to ubud' == ['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']
+// P: turn into array. sort. grab elements via last letter
+
 function last(x){
   //turn string into array, split by spaces to ensure we get words
   let arr = x.split(' ')
