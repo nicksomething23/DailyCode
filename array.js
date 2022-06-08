@@ -462,14 +462,31 @@ function invert(array) {
 
 *************************************
 */
+function vowelIndices(word){
+  //PREP
+  //P - only string? any other values? Any other data types?
+  //R - array of vowel index. console.log? return?
+  //E - 'mmm' == [], 'apple' === [1,5]
+  //P - split string into array. create a vowels string. Check for lettercase. Create an array were I can put the index in. loop through array and check index if character is a vowel then put index in empty array.
+  let vowelIndex = [];
+  const vowels ='aeiouy';
+  word.toLowerCase().split('').forEach((element,index)=> {
+    if (vowels.includes(element)) {
+        vowelIndex.push(index + 1)
+        }
+  })
+    return vowelIndex
+}
 
+
+
+function last(x){
 //PREP
 // P: string of words. Any #'s? any other data types other than words? Will it always be a string? Will it ever be an empty string? Minimum of characters?
 // R: return to console? console.log? return as string or return as array?
 // E: 'man i need a taxi up to ubud' == ['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']
 // P: turn into array. sort. grab elements via last letter
 
-function last(x){
   //turn string into array, split by spaces to ensure we get words
   let arr = x.split(' ')
   // we want to sort the words via last letter of word. We'll use sort method which will compare one elemenent to another and sort. We will use slice(-1) to grab the last letter and sort with localeCompare. 
