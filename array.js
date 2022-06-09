@@ -462,6 +462,21 @@ function invert(array) {
 
 *************************************
 */
+
+function dontGiveMeFive(start, end) {
+  let count = 0;
+  for (let i = start; i <= end; i++){
+    const numArr = i.toString().split('')
+    let amountOfFives = numArr.filter(a => a == '5').length
+    if (amountOfFives == 0) {
+      count++
+    }
+
+  }
+  return count
+}
+
+
 function vowelIndices(word){
   //PREP
   //P - only string? any other values? Any other data types?
