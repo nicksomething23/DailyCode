@@ -463,6 +463,27 @@ function invert(array) {
 *************************************
 */
 
+function oddOrEven(array) {
+  //P - an array of numbers. if empty return as zero. only numbers, can be negative
+  //R - return to console - return string saying whether number is even or odd
+  //E - [] === 'even', [3,5,1] === 'odd', [0, -1, -5] === 'even'
+  //P - conditional. if array is empty, it's an automatic even number. reduce the array. % summed array to give us even or odd.
+  
+  
+   if (array == []) {
+     return 'even'
+   } else {
+     let sum = array.reduce((a,b) => a+b,0)
+     if (sum % 2 === 0) {
+       return 'even'
+     } else {
+       return 'odd'
+     }
+   }
+}
+
+
+
 function dontGiveMeFive(start, end) {
   let count = 0;
   for (let i = start; i <= end; i++){
