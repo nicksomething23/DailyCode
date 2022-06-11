@@ -463,6 +463,16 @@ function invert(array) {
 *************************************
 */
 
+function highAndLow(numbers){
+
+  let arr = numbers.split(' ')
+  let sorted = arr.sort((a,b) => a-b)
+  let newArr = []
+  newArr.push(sorted[sorted.length - 1])
+  newArr.push(sorted[0])
+  return newArr.join(' ')
+}
+
 function oddOrEven(array) {
   //P - an array of numbers. if empty return as zero. only numbers, can be negative
   //R - return to console - return string saying whether number is even or odd
