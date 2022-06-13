@@ -463,6 +463,11 @@ function invert(array) {
 *************************************
 */
 
+function minMax(arr){
+  let sortedArr = arr.sort((a,b) => a-b)
+    return [sortedArr[0],sortedArr[sortedArr.length - 1]]; // fix me!
+  }
+
 function highAndLow(numbers){
 
   let arr = numbers.split(' ')
