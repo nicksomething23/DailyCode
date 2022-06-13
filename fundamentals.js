@@ -8,6 +8,13 @@
 *************************************
 */
 
+function getAge(inputString){
+  let arr = inputString.split(' ')
+  let number = arr.map(Number).filter(x => x)
+  let str1 = String(number)
+  return Number(str1)
+}
+
 function finalGrade (exam, projects) {
   if (exam > 90 || projects > 10) {
     return 100
