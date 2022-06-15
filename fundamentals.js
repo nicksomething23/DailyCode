@@ -7,6 +7,13 @@
 
 *************************************
 */
+function setAlarm(employed, vacation){
+  if (employed == true && vacation == false) {
+    return true
+  } else {
+    return false
+  }
+}
 
 function getAge(inputString){
   let arr = inputString.split(' ')
