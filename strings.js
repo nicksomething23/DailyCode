@@ -122,6 +122,17 @@ var countSheep = function (num){
 *************************************
 */
 
+function getMiddle(s) {
+  const length = s.length;
+  const middle = Math.floor(length/2);
+  
+  if(length % 2 === 0) {
+    return s[middle - 1] + s[middle];
+  } else {
+    return s[middle];
+  }
+}
+
 function reverseWords(str) {
   //p strings. any data types other than characters? Does case matter? 
   //R return to console
