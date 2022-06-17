@@ -7,6 +7,14 @@
 
 *************************************
 */
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args)
+  }
+}
+
+
 function setAlarm(employed, vacation){
   if (employed == true && vacation == false) {
     return true
