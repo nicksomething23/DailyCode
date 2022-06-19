@@ -8,6 +8,8 @@
 *************************************
 */
 
+const greet = () => `hello world!`
+
 class SmallestIntegerFinder {
   findSmallestInt(args) {
     return Math.min(...args)
