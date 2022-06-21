@@ -463,6 +463,15 @@ function invert(array) {
 *************************************
 */
 
+function nbDig(n, d) {
+  let nums = ''
+  for (let i =0; i <= n; i++) {
+    nums += i*i
+  }
+    return nums.split(d).length - 1
+  }
+
+
 // Return an array
 function fizzbuzz(n)
 {
