@@ -469,6 +469,11 @@ const reverseSeq = n => {
 *************************************
 */
 
+function findShort(s){
+  const lengthOfString = s.split(' ').map(a => a.length)
+  return Math.min(...lengthOfString)
+  }
+
 function nbDig(n, d) {
   let nums = ''
   for (let i =0; i <= n; i++) {
