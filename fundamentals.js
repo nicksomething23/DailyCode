@@ -8,6 +8,10 @@
 *************************************
 */
 
+function litres(time) {
+  return Math.floor(time * .5);
+}
+
 function basicOp(operation, value1, value2) {
   switch (operation) {
       case '+':
