@@ -8,6 +8,8 @@
 *************************************
 */
 
+const century = year => Math.ceil(year/100)
+
 function litres(time) {
   return Math.floor(time * .5);
 }
