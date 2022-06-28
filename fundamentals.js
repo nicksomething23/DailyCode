@@ -7,6 +7,11 @@
 
 *************************************
 */
+
+function hero(bullets, dragons){
+  return bullets >= (dragons * 2)
+}
+
 function simpleMultiplication(number) {
   if (number % 2 === 0) {
     return number*8
