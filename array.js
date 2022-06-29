@@ -8,6 +8,19 @@
 *************************************
 */
 
+function sumArray(array) {
+  if (array == null) {
+    return 0
+  } else if(array.length < 2) {
+    return 0
+  } else {
+      let sortedArr = array.sort((a,b) => a-b)
+      sortedArr.pop()
+      sortedArr.shift()
+      return sortedArr.reduce((a,b)=> a+b,0)
+  }
+}
+
 function twoHighest(arr) {
   let finalArr = []
   let removedDuplicates = [...new Set(arr)]
