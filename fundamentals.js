@@ -8,6 +8,17 @@
 *************************************
 */
 
+function rentalCarCost(d) {
+  let totalDaysCost = d * 40
+  if (d >= 7) {
+    return totalDaysCost - 50
+  } else if (d >= 3) {
+    return totalDaysCost - 20
+  } else {
+    return totalDaysCost 
+  }
+}
+
 function hero(bullets, dragons){
   return bullets >= (dragons * 2)
 }
