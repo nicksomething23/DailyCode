@@ -8,6 +8,15 @@
 *************************************
 */
 
+function enough(cap, on, wait) {
+  let currentSpace = cap - on
+  if (currentSpace >= wait) {
+    return 0
+  } else {
+    return wait - currentSpace
+  }
+}
+
 function rentalCarCost(d) {
   let totalDaysCost = d * 40
   if (d >= 7) {
