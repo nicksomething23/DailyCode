@@ -7,6 +7,13 @@
 
 *************************************
 */
+var summation = function (num) {
+  let count = 0
+  for (let i = 1; i <= num; i++) {
+    count += i
+  }
+  return count
+}
 
 function enough(cap, on, wait) {
   let currentSpace = cap - on
