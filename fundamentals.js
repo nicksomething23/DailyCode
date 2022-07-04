@@ -7,6 +7,10 @@
 
 *************************************
 */
+function isDivisible(n, x, y) {
+  return (n % x === 0) && (n % y === 0)
+}
+
 var summation = function (num) {
   let count = 0
   for (let i = 1; i <= num; i++) {
