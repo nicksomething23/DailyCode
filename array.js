@@ -469,6 +469,10 @@ const reverseSeq = n => {
 *************************************
 */
 
+function isAnagram (test, original) {
+  return test.toLowerCase().split("").sort().join("") === original.toLowerCase().split("").sort().join("");
+}
+
 function findShort(s){
   const lengthOfString = s.split(' ').map(a => a.length)
   return Math.min(...lengthOfString)
