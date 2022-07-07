@@ -7,6 +7,13 @@
 
 *************************************
 */
+
+// let laLigaGoals = 43;
+// let championsLeagueGoals = 10;
+// let copaDelReyGoals = 5;
+
+// let totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals;
+
 function isDivisible(n, x, y) {
   return (n % x === 0) && (n % y === 0)
 }
