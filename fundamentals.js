@@ -7,6 +7,14 @@
 
 *************************************
 */
+function oddCount(n){
+  let total = 0; 
+  for(let i =1; i < n; i+=2) {
+    total += 1
+  }
+  return total
+}
+
 function updateLight(current) {
   if (current === "green") {
     return "yellow"
