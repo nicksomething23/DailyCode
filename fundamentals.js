@@ -227,7 +227,9 @@ function bmi(weight, height) {
 *************************************
 */
 
-
+function isSquare (n) {
+  return Math.sqrt(n) % 1 === 0
+ }
 
 function SeriesSum(n) {
     let sum = 0
